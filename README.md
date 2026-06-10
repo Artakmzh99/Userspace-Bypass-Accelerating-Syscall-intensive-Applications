@@ -81,6 +81,26 @@ In this repository, the current ARM64 VM result measures the Nginx baseline with
 ```bash
 ./scripts/run_paper_nginx.sh
 ```
+## Paper Block 4: Raw UDP Socket Baseline
+
+This experiment is an adapted reproduction of the paper's raw socket / packet-processing benchmark. The original paper evaluates UDP packet processing throughput and compares normal socket processing with eBPF/XDP and Userspace Bypass.
+
+In this repository, the current ARM64 VM result measures a baseline UDP loopback sender/receiver benchmark without Userspace Bypass, eBPF, or XDP.
+
+### Environment
+
+- Environment: Ubuntu VM on ARM64/aarch64
+- Mode: baseline
+- Protocol: UDP over loopback
+- Duration: 12 seconds
+- Packet sizes: 128B, 512B, 1472B
+- Metric used: sender-side packets per second
+
+### Run
+
+```bash
+./scripts/run_paper_raw_socket.sh
+```
 
 ### Build and run
 
