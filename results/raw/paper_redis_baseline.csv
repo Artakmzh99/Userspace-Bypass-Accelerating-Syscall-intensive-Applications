@@ -1,0 +1,13 @@
+environment,mode,operation,data_size,requests,connections,threads,rps
+arta_arm64_vm,baseline,SET,1,1000000,50,2,363372.09
+arta_arm64_vm,baseline,GET,1,1000000,50,2,400000.00
+arta_arm64_vm,baseline,SET,64,1000000,50,2,363504.19
+arta_arm64_vm,baseline,GET,64,1000000,50,2,399840.06
+arta_arm64_vm,baseline,SET,256,1000000,50,2,399840.06
+arta_arm64_vm,baseline,GET,256,1000000,50,2,399840.06
+arta_arm64_vm,baseline,SET,1024,1000000,50,2,400000.00
+arta_arm64_vm,baseline,GET,1024,1000000,50,2,363504.19
+arta_arm64_vm,baseline,SET,4096,1000000,50,2,363504.19
+arta_arm64_vm,baseline,GET,4096,1000000,50,2,307597.66
+arta_arm64_vm,baseline,SET,16384,1000000,50,2,249875.08
+arta_arm64_vm,baseline,GET,16384,1000000,50,2,210349.17

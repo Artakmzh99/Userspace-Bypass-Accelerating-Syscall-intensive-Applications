@@ -36,11 +36,29 @@ In this repository, the current ARM64 VM result measures the baseline READ sysca
 ./scripts/run_paper_io_micro.sh
 ```
 
-## Experiment 2: File I/O Syscall Intensity
+## Paper Block 2: Redis Baseline
 
-This experiment measures how the number of write syscalls affects file I/O throughput.
+This experiment is an adapted reproduction of the paper's Redis benchmark. The original paper evaluates Redis GET and SET throughput for different data sizes and compares normal execution with Userspace Bypass.
 
-The benchmark writes 64MB of data using different chunk sizes. Smaller chunks cause more write syscalls, while larger chunks reduce the syscall count.
+In this repository, the current ARM64 VM result measures the Redis baseline without Userspace Bypass.
+
+### Environment
+
+- Environment: Ubuntu VM on ARM64/aarch64
+- Mode: baseline
+- Redis server: temporary local Redis instance
+- Port: 6380
+- Requests per data size: 1,000,000
+- Connections: 50
+- Threads: 2
+- Operations: GET, SET
+- Data sizes: 1B, 64B, 256B, 1KiB, 4KiB, 16KiB
+
+### Run
+
+```bash
+./scripts/run_paper_redis.sh
+```
 
 ### Build and run
 
