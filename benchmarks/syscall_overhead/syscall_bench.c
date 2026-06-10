@@ -34,6 +34,7 @@ static long long bench_getpid(long iterations) {
     }
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
 
+    (void)pid;
     return nsec_diff(start, end);
 }
 

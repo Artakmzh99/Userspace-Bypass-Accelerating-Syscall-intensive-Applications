@@ -20,7 +20,7 @@ mkdir -p "$OUT_DIR"
   uname -a
   echo
 
-  echo "=== os release ==="
+  echo "=== /etc/os-release ==="
   cat /etc/os-release || true
   echo
 
@@ -36,28 +36,60 @@ mkdir -p "$OUT_DIR"
   free -h || true
   echo
 
-  echo "=== gcc ==="
+  echo "=== disk ==="
+  df -h || true
+  echo
+
+  echo "=== gcc --version ==="
   gcc --version || true
   echo
 
-  echo "=== python ==="
+  echo "=== g++ --version ==="
+  g++ --version || true
+  echo
+
+  echo "=== make --version ==="
+  make --version || true
+  echo
+
+  echo "=== python3 --version ==="
   python3 --version || true
   echo
 
-  echo "=== git ==="
+  echo "=== pip3 --version ==="
+  pip3 --version || true
+  echo
+
+  echo "=== git --version ==="
   git --version || true
   echo
 
-  echo "=== redis ==="
+  echo "=== redis-server --version ==="
   redis-server --version 2>&1 || true
   echo
 
-  echo "=== nginx ==="
+  echo "=== nginx -v ==="
   nginx -v 2>&1 || true
   echo
 
-  echo "=== wrk ==="
+  echo "=== wrk --version ==="
   wrk --version 2>&1 || true
+  echo
+
+  echo "=== Python packages ==="
+  python3 - <<'PY' || true
+try:
+    import pandas
+    print("pandas", pandas.__version__)
+except Exception as exc:
+    print("pandas unavailable:", exc)
+
+try:
+    import matplotlib
+    print("matplotlib", matplotlib.__version__)
+except Exception as exc:
+    print("matplotlib unavailable:", exc)
+PY
 } > "$OUT_FILE"
 
 echo "Environment metadata saved to $OUT_FILE"

@@ -14,8 +14,7 @@ This repository is not a full reimplementation of the paper’s kernel-level Use
 - raw CSV result files,
 - generated plots,
 - reproducibility scripts,
-- documentation for the ARM64 VM environment,
-- a separate task plan for x86_64 artifact reproduction.
+- documentation for the ARM64 VM environment.
 
 The current ARM64 results should be interpreted as **baseline / adapted reproduction results**, not as direct performance claims against the paper’s original x86_64 setup.
 
@@ -87,8 +86,7 @@ docs/reproducibility.md
 │   └── syscall_overhead/
 ├── docs/
 │   ├── experiment_matrix.md
-│   ├── reproducibility.md
-│   └── x86_64_friend_tasks.md
+│   └── reproducibility.md
 ├── results/
 │   ├── raw/
 │   ├── plots/
@@ -98,9 +96,13 @@ docs/reproducibility.md
 │   ├── run_paper_redis.sh
 │   ├── run_paper_nginx.sh
 │   ├── run_paper_raw_socket.sh
+│   ├── run_syscall_overhead.sh
+│   ├── run_file_io.sh
+│   ├── run_network_io.sh
 │   ├── plot_paper_redis.py
 │   ├── plot_paper_nginx.py
 │   ├── plot_paper_raw_socket.py
+│   ├── plot_results.py
 │   ├── capture_environment.sh
 │   └── check_artifacts.sh
 └── README.md
@@ -339,9 +341,8 @@ results/raw/network_io.csv
 
 ```bash
 sudo apt update
-sudo apt install -y git gcc g++ make cmake python3 python3-pip curl wget unzip vim \
-    redis-server redis-tools nginx wrk
-pip3 install pandas matplotlib
+sudo apt install -y git gcc g++ make cmake python3 python3-pandas python3-matplotlib \
+    curl wget unzip vim redis-server redis-tools nginx wrk
 ```
 
 ## 2. Clone the repository
@@ -372,6 +373,7 @@ cd Userspace-Bypass-Accelerating-Syscall-intensive-Applications
 ./scripts/plot_paper_redis.py
 ./scripts/plot_paper_nginx.py
 ./scripts/plot_paper_raw_socket.py
+./scripts/plot_results.py
 ```
 
 ## 6. Check expected artifacts
@@ -393,12 +395,6 @@ The paper’s original evaluation is expected to be closer to a native x86_64 Li
 - preparing comparison points for x86_64 experiments.
 
 They should not be used as direct replacements for the paper’s original Userspace Bypass measurements.
-
-The x86_64 follow-up task list is documented in:
-
-```text
-docs/x86_64_friend_tasks.md
-```
 
 ---
 

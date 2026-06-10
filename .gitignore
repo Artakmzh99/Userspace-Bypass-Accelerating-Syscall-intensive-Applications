@@ -1,0 +1,6 @@
+benchmarks/file_io/file_io_bench
+benchmarks/network_io/network_io_bench
+benchmarks/paper_io_micro/read_iops_bench
+benchmarks/paper_raw_socket/udp_pps_bench
+benchmarks/syscall_overhead/syscall_bench
+*.o

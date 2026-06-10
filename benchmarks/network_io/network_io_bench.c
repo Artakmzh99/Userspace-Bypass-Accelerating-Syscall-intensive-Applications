@@ -43,6 +43,8 @@ static long long send_benchmark(size_t total_bytes, size_t chunk_size) {
         exit(1);
     }
 
+    fflush(stdout);
+
     pid_t child = fork();
     if (child < 0) {
         fprintf(stderr, "fork failed: %s\n", strerror(errno));
@@ -53,7 +55,7 @@ static long long send_benchmark(size_t total_bytes, size_t chunk_size) {
         close(sv[0]);
         receiver_loop(sv[1], total_bytes);
         close(sv[1]);
-        exit(0);
+        _exit(0);
     }
 
     close(sv[1]);

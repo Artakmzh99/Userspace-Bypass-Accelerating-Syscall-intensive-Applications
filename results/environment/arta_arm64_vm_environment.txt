@@ -1,13 +1,13 @@
 === date ===
-Wed Jun 10 10:15:46 PM CEST 2026
+Wed Jun 10 11:37:38 PM CEST 2026
 
 === git commit ===
-c11bee9093e124467d403788b3336b722c76bda4
+6add0c8c19d4f9621146f44df1360a7ee19d2aa1
 
 === uname -a ===
 Linux ubuntu-vn 7.0.0-22-generic #22-Ubuntu SMP PREEMPT_DYNAMIC Mon May 25 15:37:49 UTC 2026 aarch64 GNU/Linux
 
-=== os release ===
+=== /etc/os-release ===
 PRETTY_NAME="Ubuntu 26.04 LTS"
 NAME="Ubuntu"
 VERSION_ID="26.04"
@@ -65,29 +65,59 @@ Vulnerability Vmscape:                   Not affected
 
 === memory ===
                total        used        free      shared  buff/cache   available
-Mem:           3.3Gi       2.3Gi       181Mi        50Mi       943Mi       984Mi
-Swap:          3.8Gi       1.3Gi       2.5Gi
+Mem:           3.3Gi       2.2Gi       226Mi        54Mi       1.0Gi       1.1Gi
+Swap:          3.8Gi       2.0Gi       1.8Gi
 
-=== gcc ===
+=== disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           676M  2.7M  674M   1% /run
+/dev/sda2        59G   15G   42G  26% /
+tmpfs           1.7G   68M  1.6G   4% /dev/shm
+efivarfs        256K  3.4K  253K   2% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/sda1       1.1G  6.6M  1.1G   1% /boot/efi
+tmpfs           1.7G  8.1M  1.7G   1% /tmp
+tmpfs           338M   96K  338M   1% /run/user/1000
+
+=== gcc --version ===
 gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
 Copyright (C) 2025 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
-=== python ===
+=== g++ --version ===
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+=== make --version ===
+GNU Make 4.4.1
+Built for aarch64-unknown-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+=== python3 --version ===
 Python 3.14.4
 
-=== git ===
+=== pip3 --version ===
+pip 25.1.1 from /usr/lib/python3/dist-packages/pip (python 3.14)
+
+=== git --version ===
 git version 2.53.0
 
-=== redis ===
+=== redis-server --version ===
 Redis server v=8.0.5 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=9729964261b8fc0f
 
-=== nginx ===
+=== nginx -v ===
 nginx version: nginx/1.28.3 (Ubuntu)
 
-=== wrk ===
+=== wrk --version ===
 wrk debian/4.1.0-4build3 [epoll] Copyright (C) 2012 Will Glozer
 Usage: wrk <options> <url>                            
   Options:                                            
@@ -103,3 +133,7 @@ Usage: wrk <options> <url>
                                                       
   Numeric arguments may include a SI unit (1k, 1M, 1G)
   Time arguments may include a time unit (2s, 2m, 2h)
+
+=== Python packages ===
+pandas 2.3.3
+matplotlib 3.10.7+dfsg1

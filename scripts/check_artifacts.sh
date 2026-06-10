@@ -34,7 +34,6 @@ echo "Checking documentation files..."
 check_file "README.md"
 check_file "docs/experiment_matrix.md"
 check_file "docs/reproducibility.md"
-check_file "docs/x86_64_fredi_tasks.md"
 
 echo
 echo "Checking run scripts..."

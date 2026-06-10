@@ -52,8 +52,11 @@ static void receiver(int port, int duration_seconds) {
         exit(1);
     }
 
-    signal(SIGALRM, on_alarm);
-    alarm(duration_seconds);
+    struct sigaction sa;
+    memset(&sa, 0, sizeof(sa));
+    sa.sa_handler = on_alarm;
+    sigaction(SIGALRM, &sa, NULL);
+    alarm((unsigned int)duration_seconds + 1);
 
     char buf[2048];
     uint64_t packets = 0;
@@ -73,6 +76,15 @@ static void receiver(int port, int duration_seconds) {
             packets++;
             checksum += (uint64_t)buf[0];
         }
+    }
+
+    while (1) {
+        ssize_t ret = recv(fd, buf, sizeof(buf), MSG_DONTWAIT);
+        if (ret <= 0) {
+            break;
+        }
+        packets++;
+        checksum += (uint64_t)buf[0];
     }
 
     if (checksum == 0xdeadbeef) {
@@ -147,6 +159,8 @@ static void run_one(size_t packet_size, int duration_seconds, int port) {
         exit(1);
     }
 
+    fflush(stdout);
+
     pid_t child = fork();
     if (child < 0) {
         fprintf(stderr, "fork failed: %s\n", strerror(errno));
@@ -158,10 +172,8 @@ static void run_one(size_t packet_size, int duration_seconds, int port) {
         dup2(pipefd[1], STDOUT_FILENO);
         close(pipefd[1]);
         receiver(port, duration_seconds);
-        exit(0);
+        _exit(0);
     }
-
-
 
     close(pipefd[1]);
     usleep(200000);
@@ -171,8 +183,8 @@ static void run_one(size_t packet_size, int duration_seconds, int port) {
 
     uint64_t sent = sender(port, packet_size, duration_seconds);
 
-    waitpid(child, NULL, 0);
     clock_gettime(CLOCK_MONOTONIC_RAW, &end);
+    waitpid(child, NULL, 0);
 
     char output[128] = {0};
     ssize_t n = read(pipefd[0], output, sizeof(output) - 1);

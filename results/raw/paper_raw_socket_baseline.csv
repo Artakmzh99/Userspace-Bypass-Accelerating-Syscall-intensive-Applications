@@ -1,4 +1,4 @@
 environment,mode,packet_size,duration_seconds,packets_sent,packets_received,seconds,sent_pps,received_pps,computation
-arta_arm64_vm,baseline,128,12,8486912,0,12.014697,706377.53,0.00,none
-arta_arm64_vm,baseline,512,12,7520256,0,12.013111,626004.02,0.00,none
-arta_arm64_vm,baseline,1472,12,5898240,0,12.005648,491288.78,0.00,none
+arta_arm64_vm,baseline,128,12,8634368,8465248,12.007004,719110.95,705025.84,none
+arta_arm64_vm,baseline,512,12,7602176,7434153,12.020213,632449.37,618471.00,none
+arta_arm64_vm,baseline,1472,12,5947392,5790645,12.009503,495223.81,482171.90,none
