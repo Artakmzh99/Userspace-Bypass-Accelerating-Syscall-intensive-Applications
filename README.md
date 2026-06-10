@@ -63,6 +63,46 @@ total_bytes,chunk_size,write_syscalls,total_ns,seconds,mb_per_sec
 
 The result shows that very small writes create a large number of syscalls and significantly reduce throughput. Increasing the chunk size reduces syscall count and improves throughput.
 
+## Experiment 3: Network I/O Syscall Intensity
+
+This experiment measures how the number of send syscalls affects local socket throughput.
+
+The benchmark uses socketpair(AF_UNIX, SOCK_STREAM) to create a local communication channel inside the same machine. It sends 64MB of data using different chunk sizes. Smaller chunks create more send() syscalls, while larger chunks reduce syscall count.
+
+### Build and run
+
+Run the following command from the repository root:
+
+./scripts/run_network_io.sh
+
+### Output file
+
+The result is saved to:
+
+results/raw/network_io.csv
+
+### CSV format
+
+total_bytes,chunk_size,send_syscalls,total_ns,seconds,mb_per_sec
+
+### Current result
+
+total_bytes,chunk_size,send_syscalls,total_ns,seconds,mb_per_sec
+67108864,1,67108864,27013013221,27.013013,2.37
+67108864,4,16777216,6768269128,6.768269,9.46
+67108864,16,4194304,1680433418,1.680433,37.95
+67108864,64,1048576,421174834,0.421175,151.96
+67108864,256,262144,130907667,0.130908,488.89
+67108864,1024,65536,41233500,0.041233,1552.14
+67108864,4096,16384,11350917,0.011351,5638.31
+67108864,16384,4096,11175333,0.011175,5726.90
+67108864,65536,1024,13986792,0.013987,4575.75
+
+### Observation
+
+The result shows that sending very small messages creates many send() syscalls and significantly reduces throughput. Larger chunks reduce syscall frequency and improve throughput.
+
+
 ### Build and run
 
 Run the following command from the repository root:
