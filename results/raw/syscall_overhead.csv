@@ -1,0 +1,5 @@
+benchmark,iterations,total_ns,avg_ns
+empty_loop,1000000,248083,0.25
+getpid,1000000,97076333,97.08
+read_1B_dev_zero,1000000,131142667,131.14
+write_1B_dev_null,1000000,126808834,126.81
