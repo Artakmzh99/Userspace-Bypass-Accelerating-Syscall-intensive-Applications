@@ -14,7 +14,7 @@ This document tracks the reproduction status of the paper experiments.
 
 | Paper block | Paper goal | Our reproduction plan | Result file | Status |
 |---|---|---|---|---|
-| Block 1 | TBD | TBD | TBD | Not started |
-| Block 2 | TBD | TBD | TBD | Not started |
-| Block 3 | TBD | TBD | TBD | Not started |
-| Block 4 | TBD | TBD | TBD | Not started |
+| Block 1: I/O Micro-benchmark | Reproduce Figure 5: READ syscall throughput for 64B, 256B, 1KiB, 4KiB buffers; optionally compare with io_uring | Implement tight-loop READ benchmark over tmpfs/ramfs file; measure IOPS for multiple buffer sizes | results/raw/paper_io_micro.csv | Not started |
+| Block 2: Redis | Reproduce Figure 7: Redis GET/SET RPS for different data sizes | Install Redis, run redis-benchmark for GET/SET with data sizes 1B, 64B, 256B, 1KiB, 4KiB, 16KiB | results/raw/paper_redis.csv | Not started |
+| Block 3: Nginx | Reproduce Figure 8 and Figure 9: Nginx RPS vs file size and worker count | Install Nginx and wrk; serve static files of 1KB, 4KB, 16KB, 64KB, 256KB; measure RPS | results/raw/paper_nginx.csv | Not started |
+| Block 4: Raw Socket vs eBPF | Reproduce Figure 10: UDP packet processing throughput for raw socket and optionally eBPF/XDP | Implement raw UDP packet receiver and sender; measure PPS for 128B, 512B, 1472B packets | results/raw/paper_raw_socket.csv | Not started |
