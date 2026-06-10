@@ -59,6 +59,28 @@ In this repository, the current ARM64 VM result measures the Redis baseline with
 ```bash
 ./scripts/run_paper_redis.sh
 ```
+## Paper Block 3: Nginx Baseline
+
+This experiment is an adapted reproduction of the paper's Nginx benchmark. The original paper evaluates Nginx throughput for different static file sizes and compares normal execution with Userspace Bypass.
+
+In this repository, the current ARM64 VM result measures the Nginx baseline without Userspace Bypass.
+
+### Environment
+
+- Environment: Ubuntu VM on ARM64/aarch64
+- Mode: baseline
+- Nginx: temporary local Nginx instance
+- Load generator: wrk
+- Threads: 8
+- Connections: 1024
+- Duration: 12 seconds
+- File sizes: 1KiB, 4KiB, 16KiB, 64KiB, 256KiB
+
+### Run
+
+```bash
+./scripts/run_paper_nginx.sh
+```
 
 ### Build and run
 

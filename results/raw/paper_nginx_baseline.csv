@@ -1,0 +1,6 @@
+environment,mode,file_size,wrk_threads,connections,duration_seconds,rps
+arta_arm64_vm,baseline,1024,8,1024,12,332595.76
+arta_arm64_vm,baseline,4096,8,1024,12,308229.64
+arta_arm64_vm,baseline,16384,8,1024,12,258218.09
+arta_arm64_vm,baseline,65536,8,1024,12,165508.09
+arta_arm64_vm,baseline,262144,8,1024,12,73821.30
