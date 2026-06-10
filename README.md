@@ -15,14 +15,26 @@ Current setup:
 - Compiler: GCC
 - VM: VirtualBox on macOS
 
-## Experiment 1: Syscall Overhead Benchmark
+## Paper Block 1: I/O Micro-benchmark Baseline
 
-This experiment measures the average cost of several syscall-related operations:
+This experiment is an adapted reproduction of the paper's I/O micro-benchmark. The original paper evaluates READ syscall throughput for small buffer sizes and compares normal syscalls, io_uring, and Userspace Bypass.
 
-- empty loop
-- getpid()
-- read 1 byte from /dev/zero
-- write 1 byte to /dev/null
+In this repository, the current ARM64 VM result measures the baseline READ syscall throughput without Userspace Bypass.
+
+### Environment
+
+- Environment: Ubuntu VM on ARM64/aarch64
+- Mode: baseline
+- File location: /dev/shm
+- Operation: read()
+- Iterations per buffer size: 2,000,000
+- Buffer sizes: 64B, 256B, 1KiB, 4KiB
+
+### Run
+
+```bash
+./scripts/run_paper_io_micro.sh
+```
 
 ## Experiment 2: File I/O Syscall Intensity
 
