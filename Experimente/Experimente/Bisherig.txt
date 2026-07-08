@@ -1,0 +1,4 @@
+-Wir haben Ubuntu 20.04.2 auf einer Oracle VirtualBox eingerichtet
+-Für Experiment nötige Software eingerichtet (Qemu 4.2.1, Redis 6.2.6, Nginx 1.20.0)
+- Kernel 5.4.44 gedownloadet, und mithilfe der Patch file aus dem Repo das Kernel gepatcht
+- Dann wurde das Kernel kompiliert und als boot kernel eingerichtet

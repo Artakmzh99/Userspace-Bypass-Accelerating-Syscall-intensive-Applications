@@ -1,0 +1,14 @@
+Ausführung Experiment:
+Anmerkung: KPTI ist on. Off mit pti=off
+sudo su -> echo 0 > /proc/sys/kernel/randomize_va_space
+Ub Aktivierung: cd UserspaceBypass/source_codes/ub -> sudo ./start.sh 
+Bei folgendem Schritt: Insert the kernel module, and run the daemon program
+-> Overall usage: Schritt 6. Falls syscall Adressen stimmen: Man kann auch start.sh in ub ausführen
+
+Nötiger Schritt bei syscall_read, vllt auch woanders: Test_file pfad ändern!!
+
+KIOPS with sum Experiment NICHT, da auf physical machine
+
+IO_uring mit Depth 128 getestet
+
+f stack ließ sich nicht ausführen wegen meson
