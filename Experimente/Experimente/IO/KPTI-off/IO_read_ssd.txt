@@ -234,8 +234,7 @@ Throughput(M/s, G/s): 1018.690617M, 0.994815G
 
 4 kib bzw 4096b:
 
-Base:
-64=========Summary==========
+=========Summary==========
 Total rdtscp cycles: 61504624763
 Total gap time:24.601850 (s)
 Average IO time: 2.933e-06s
@@ -311,6 +310,9 @@ Total gap time:58.361175 (s)
 Average IO time: 6.957e-06s
 IOPS:          143.74 K
 Throughput(M/s, G/s): 561.469160M, 0.548310G
+
+Base:
+64
 
 =========Summary==========
 Total rdtscp cycles: 13629125255
