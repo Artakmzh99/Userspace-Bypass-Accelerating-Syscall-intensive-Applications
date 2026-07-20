@@ -1,0 +1,12 @@
+Ausführung: Straightforward wie in der Dokumentation. Probleme: Numpy wollte sich erst nicht installieren
+146.86 k
+188.46 k
+190.19 k
+188.26 k
+185.46 k
+182.58 k
+182.18 k
+185.23 k
+184.50 k
+191.69 k
+

@@ -1,0 +1,27 @@
+Base:
+1 kib:
+Rps: 5281.03
+Tps: 4.28mb
+4 kib:
+Rps: 4024.54
+Tps: 3.26mb
+16 kib:
+Rps: 4372.47
+Tps: 3.55mb
+64 kib:
+Rps: 11527.84
+Tps: 9.34mb
+256 kib:
+Rps: 5771.40
+Tps: 4.68mb
+
+Base-Threads: 4kib
+2:
+Rps: 4562.10
+Tps: 3.70mb
+4:
+Rps: 12246.35
+Tps: 9.93mb
+8:
+Rps: 4024.54
+Tps: 3.26mb

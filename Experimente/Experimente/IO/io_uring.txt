@@ -1,0 +1,3 @@
+Ausführung in UserspaceBypass/source_codes/apps/io_file
+sudo fio befehl aus Dokumentation
+io Depth = 128

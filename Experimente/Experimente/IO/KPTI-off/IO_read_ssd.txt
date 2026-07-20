@@ -1,0 +1,624 @@
+Mit UB:
+64
+=========Summary==========
+Total rdtscp cycles: 14177235112
+Total gap time:5.670894 (s)
+Average IO time: 6.760e-07s
+IOPS:         1479.24 K
+Throughput(M/s, G/s): 90.285587M, 0.088170G
+
+=========Summary==========
+Total rdtscp cycles: 11276509838
+Total gap time:4.510604 (s)
+Average IO time: 5.377e-07s
+IOPS:         1859.75 K
+Throughput(M/s, G/s): 113.510299M, 0.110850G
+
+=========Summary==========
+Total rdtscp cycles: 11317934450
+Total gap time:4.527174 (s)
+Average IO time: 5.397e-07s
+IOPS:         1852.95 K
+Throughput(M/s, G/s): 113.094841M, 0.110444G
+
+=========Summary==========
+Total rdtscp cycles: 10940309867
+Total gap time:4.376124 (s)
+Average IO time: 5.217e-07s
+IOPS:         1916.90 K
+Throughput(M/s, G/s): 116.998514M, 0.114256G
+
+=========Summary==========
+Total rdtscp cycles: 10317738602
+Total gap time:4.127095 (s)
+Average IO time: 4.920e-07s
+IOPS:         2032.57 K
+Throughput(M/s, G/s): 124.058192M, 0.121151G
+
+=========Summary==========
+Total rdtscp cycles: 10187824808
+Total gap time:4.075130 (s)
+Average IO time: 4.858e-07s
+IOPS:         2058.49 K
+Throughput(M/s, G/s): 125.640166M, 0.122695G
+
+=========Summary==========
+Total rdtscp cycles: 10293640094
+Total gap time:4.117456 (s)
+Average IO time: 4.908e-07s
+IOPS:         2037.33 K
+Throughput(M/s, G/s): 124.348626M, 0.121434G
+
+=========Summary==========
+Total rdtscp cycles: 9932772216
+Total gap time:3.973109 (s)
+Average IO time: 4.736e-07s
+IOPS:         2111.35 K
+Throughput(M/s, G/s): 128.866340M, 0.125846G
+
+=========Summary==========
+Total rdtscp cycles: 10007151164
+Total gap time:4.002860 (s)
+Average IO time: 4.772e-07s
+IOPS:         2095.65 K
+Throughput(M/s, G/s): 127.908531M, 0.124911G
+
+=========Summary==========
+Total rdtscp cycles: 10055122176
+Total gap time:4.022049 (s)
+Average IO time: 4.795e-07s
+IOPS:         2085.66 K
+Throughput(M/s, G/s): 127.298304M, 0.124315G
+
+=========Summary==========
+Total rdtscp cycles: 9996740454
+Total gap time:3.998696 (s)
+Average IO time: 4.767e-07s
+IOPS:         2097.84 K
+Throughput(M/s, G/s): 128.041736M, 0.125041G
+
+256
+=========Summary==========
+Total rdtscp cycles: 13598184475
+Total gap time:5.439274 (s)
+Average IO time: 6.484e-07s
+IOPS:         1542.23 K
+Throughput(M/s, G/s): 376.520852M, 0.367696G
+
+=========Summary==========
+Total rdtscp cycles: 12464309147
+Total gap time:4.985724 (s)
+Average IO time: 5.943e-07s
+IOPS:         1682.53 K
+Throughput(M/s, G/s): 410.772867M, 0.401145G
+
+=========Summary==========
+Total rdtscp cycles: 12346126548
+Total gap time:4.938451 (s)
+Average IO time: 5.887e-07s
+IOPS:         1698.63 K
+Throughput(M/s, G/s): 414.704967M, 0.404985G
+
+=========Summary==========
+Total rdtscp cycles: 12325046453
+Total gap time:4.930019 (s)
+Average IO time: 5.877e-07s
+IOPS:         1701.54 K
+Throughput(M/s, G/s): 415.414256M, 0.405678G
+
+=========Summary==========
+Total rdtscp cycles: 11857922990
+Total gap time:4.743169 (s)
+Average IO time: 5.654e-07s
+IOPS:         1768.57 K
+Throughput(M/s, G/s): 431.778820M, 0.421659G
+
+=========Summary==========
+Total rdtscp cycles: 12375489880
+Total gap time:4.950196 (s)
+Average IO time: 5.901e-07s
+IOPS:         1694.60 K
+Throughput(M/s, G/s): 413.720996M, 0.404024G
+
+=========Summary==========
+Total rdtscp cycles: 12564391797
+Total gap time:5.025757 (s)
+Average IO time: 5.991e-07s
+IOPS:         1669.12 K
+Throughput(M/s, G/s): 407.500823M, 0.397950G
+
+=========Summary==========
+Total rdtscp cycles: 12098386852
+Total gap time:4.839355 (s)
+Average IO time: 5.769e-07s
+IOPS:         1733.41 K
+Throughput(M/s, G/s): 423.196916M, 0.413278G
+
+=========Summary==========
+Total rdtscp cycles: 11907953443
+Total gap time:4.763181 (s)
+Average IO time: 5.678e-07s
+IOPS:         1761.14 K
+Throughput(M/s, G/s): 429.964731M, 0.419887G
+
+=========Summary==========
+Total rdtscp cycles: 11936196647
+Total gap time:4.774479 (s)
+Average IO time: 5.692e-07s
+IOPS:         1756.97 K
+Throughput(M/s, G/s): 428.947357M, 0.418894G
+
+=========Summary==========
+Total rdtscp cycles: 11791151765
+Total gap time:4.716461 (s)
+Average IO time: 5.622e-07s
+IOPS:         1778.58 K
+Throughput(M/s, G/s): 434.223908M, 0.424047G
+1kib bzw 1024b:
+=========Summary==========
+Total rdtscp cycles: 19635775370
+Total gap time:7.854310 (s)
+Average IO time: 9.363e-07s
+IOPS:         1068.03 K
+Throughput(M/s, G/s): 1042.994209M, 1.018549G
+
+=========Summary==========
+Total rdtscp cycles: 19647277056
+Total gap time:7.858911 (s)
+Average IO time: 9.369e-07s
+IOPS:         1067.40 K
+Throughput(M/s, G/s): 1042.383631M, 1.017953G
+
+=========Summary==========
+Total rdtscp cycles: 17742848186
+Total gap time:7.097139 (s)
+Average IO time: 8.460e-07s
+IOPS:         1181.97 K
+Throughput(M/s, G/s): 1154.267893M, 1.127215G
+
+=========Summary==========
+Total rdtscp cycles: 17424236855
+Total gap time:6.969695 (s)
+Average IO time: 8.309e-07s
+IOPS:         1203.58 K
+Throughput(M/s, G/s): 1175.374289M, 1.147826G
+
+=========Summary==========
+Total rdtscp cycles: 17494131961
+Total gap time:6.997653 (s)
+Average IO time: 8.342e-07s
+IOPS:         1198.77 K
+Throughput(M/s, G/s): 1170.678262M, 1.143240G
+
+=========Summary==========
+Total rdtscp cycles: 17389598147
+Total gap time:6.955839 (s)
+Average IO time: 8.292e-07s
+IOPS:         1205.98 K
+Throughput(M/s, G/s): 1177.715542M, 1.150113G
+
+=========Summary==========
+Total rdtscp cycles: 17384270548
+Total gap time:6.953708 (s)
+Average IO time: 8.289e-07s
+IOPS:         1206.35 K
+Throughput(M/s, G/s): 1178.076465M, 1.150465G
+
+=========Summary==========
+Total rdtscp cycles: 17882762645
+Total gap time:7.153105 (s)
+Average IO time: 8.527e-07s
+IOPS:         1172.72 K
+Throughput(M/s, G/s): 1145.236919M, 1.118395G
+
+=========Summary==========
+Total rdtscp cycles: 18038229477
+Total gap time:7.215292 (s)
+Average IO time: 8.601e-07s
+IOPS:         1162.62 K
+Throughput(M/s, G/s): 1135.366419M, 1.108756G
+
+=========Summary==========
+Total rdtscp cycles: 17964644018
+Total gap time:7.185858 (s)
+Average IO time: 8.566e-07s
+IOPS:         1167.38 K
+Throughput(M/s, G/s): 1140.017023M, 1.113298G
+
+=========Summary==========
+Total rdtscp cycles: 20104239370
+Total gap time:8.041696 (s)
+Average IO time: 9.586e-07s
+IOPS:         1043.14 K
+Throughput(M/s, G/s): 1018.690617M, 0.994815G
+
+4 kib bzw 4096b:
+
+Base:
+64=========Summary==========
+Total rdtscp cycles: 61504624763
+Total gap time:24.601850 (s)
+Average IO time: 2.933e-06s
+IOPS:          340.97 K
+Throughput(M/s, G/s): 1331.932360M, 1.300715G
+
+=========Summary==========
+Total rdtscp cycles: 59956477632
+Total gap time:23.982591 (s)
+Average IO time: 2.859e-06s
+IOPS:          349.78 K
+Throughput(M/s, G/s): 1366.324428M, 1.334301G
+
+=========Summary==========
+Total rdtscp cycles: 80048171906
+Total gap time:32.019269 (s)
+Average IO time: 3.817e-06s
+IOPS:          261.99 K
+Throughput(M/s, G/s): 1023.383771M, 0.999398G
+
+=========Summary==========
+Total rdtscp cycles: 82812750294
+Total gap time:33.125100 (s)
+Average IO time: 3.949e-06s
+IOPS:          253.24 K
+Throughput(M/s, G/s): 989.219652M, 0.966035G
+
+=========Summary==========
+Total rdtscp cycles: 83136356086
+Total gap time:33.254542 (s)
+Average IO time: 3.964e-06s
+IOPS:          252.25 K
+Throughput(M/s, G/s): 985.369144M, 0.962275G
+
+=========Summary==========
+Total rdtscp cycles: 81497653498
+Total gap time:32.599061 (s)
+Average IO time: 3.886e-06s
+IOPS:          257.33 K
+Throughput(M/s, G/s): 1005.182315M, 0.981623G
+
+=========Summary==========
+Total rdtscp cycles: 109745610218
+Total gap time:43.898244 (s)
+Average IO time: 5.233e-06s
+IOPS:          191.09 K
+Throughput(M/s, G/s): 746.453547M, 0.728959G
+
+=========Summary==========
+Total rdtscp cycles: 189577503114
+Total gap time:75.831001 (s)
+Average IO time: 9.040e-06s
+IOPS:          110.62 K
+Throughput(M/s, G/s): 432.118783M, 0.421991G
+
+=========Summary==========
+Total rdtscp cycles: 189427677760
+Total gap time:75.771071 (s)
+Average IO time: 9.033e-06s
+IOPS:          110.71 K
+Throughput(M/s, G/s): 432.460562M, 0.422325G
+
+=========Summary==========
+Total rdtscp cycles: 188296688960
+Total gap time:75.318676 (s)
+Average IO time: 8.979e-06s
+IOPS:          111.37 K
+Throughput(M/s, G/s): 435.058101M, 0.424861G
+
+=========Summary==========
+Total rdtscp cycles: 145902938051
+Total gap time:58.361175 (s)
+Average IO time: 6.957e-06s
+IOPS:          143.74 K
+Throughput(M/s, G/s): 561.469160M, 0.548310G
+
+=========Summary==========
+Total rdtscp cycles: 13629125255
+Total gap time:5.451650 (s)
+Average IO time: 6.499e-07s
+IOPS:         1538.73 K
+Throughput(M/s, G/s): 93.916519M, 0.091715G
+
+=========Summary==========
+Total rdtscp cycles: 10628091017
+Total gap time:4.251236 (s)
+Average IO time: 5.068e-07s
+IOPS:         1973.22 K
+Throughput(M/s, G/s): 120.435551M, 0.117613G
+
+=========Summary==========
+Total rdtscp cycles: 12891770892
+Total gap time:5.156708 (s)
+Average IO time: 6.147e-07s
+IOPS:         1626.74 K
+Throughput(M/s, G/s): 99.288144M, 0.096961G
+
+=========Summary==========
+Total rdtscp cycles: 10855028813
+Total gap time:4.342012 (s)
+Average IO time: 5.176e-07s
+IOPS:         1931.96 K
+Throughput(M/s, G/s): 117.917697M, 0.115154G
+
+=========Summary==========
+Total rdtscp cycles: 10477818504
+Total gap time:4.191127 (s)
+Average IO time: 4.996e-07s
+IOPS:         2001.52 K
+Throughput(M/s, G/s): 122.162834M, 0.119300G
+
+=========Summary==========
+Total rdtscp cycles: 10291367669
+Total gap time:4.116547 (s)
+Average IO time: 4.907e-07s
+IOPS:         2037.78 K
+Throughput(M/s, G/s): 124.376083M, 0.121461G
+
+=========Summary==========
+Total rdtscp cycles: 10260008224
+Total gap time:4.104003 (s)
+Average IO time: 4.892e-07s
+IOPS:         2044.01 K
+Throughput(M/s, G/s): 124.756235M, 0.121832G
+
+=========Summary==========
+Total rdtscp cycles: 9897661482
+Total gap time:3.959065 (s)
+Average IO time: 4.720e-07s
+IOPS:         2118.84 K
+Throughput(M/s, G/s): 129.323477M, 0.126292G
+
+=========Summary==========
+Total rdtscp cycles: 9910157676
+Total gap time:3.964063 (s)
+Average IO time: 4.726e-07s
+IOPS:         2116.16 K
+Throughput(M/s, G/s): 129.160407M, 0.126133G
+
+=========Summary==========
+Total rdtscp cycles: 10825674975
+Total gap time:4.330270 (s)
+Average IO time: 5.162e-07s
+IOPS:         1937.20 K
+Throughput(M/s, G/s): 118.237431M, 0.115466G
+
+=========Summary==========
+Total rdtscp cycles: 10690782374
+Total gap time:4.276313 (s)
+Average IO time: 5.098e-07s
+IOPS:         1961.65 K
+Throughput(M/s, G/s): 119.729310M, 0.116923G
+
+256
+=========Summary==========
+Total rdtscp cycles: 12899628718
+Total gap time:5.159851 (s)
+Average IO time: 6.151e-07s
+IOPS:         1625.75 K
+Throughput(M/s, G/s): 396.910649M, 0.387608G
+
+=========Summary==========
+Total rdtscp cycles: 13271772461
+Total gap time:5.308709 (s)
+Average IO time: 6.328e-07s
+IOPS:         1580.16 K
+Throughput(M/s, G/s): 385.781177M, 0.376739G
+
+=========Summary==========
+Total rdtscp cycles: 13994986481
+Total gap time:5.597995 (s)
+Average IO time: 6.673e-07s
+IOPS:         1498.50 K
+Throughput(M/s, G/s): 365.845298M, 0.357271G
+
+=========Summary==========
+Total rdtscp cycles: 12524563372
+Total gap time:5.009825 (s)
+Average IO time: 5.972e-07s
+IOPS:         1674.43 K
+Throughput(M/s, G/s): 408.796686M, 0.399216G
+
+=========Summary==========
+Total rdtscp cycles: 12392679177
+Total gap time:4.957072 (s)
+Average IO time: 5.909e-07s
+IOPS:         1692.25 K
+Throughput(M/s, G/s): 413.147143M, 0.403464G
+
+=========Summary==========
+Total rdtscp cycles: 13057193676
+Total gap time:5.222877 (s)
+Average IO time: 6.226e-07s
+IOPS:         1606.13 K
+Throughput(M/s, G/s): 392.121012M, 0.382931G
+
+=========Summary==========
+Total rdtscp cycles: 15422500987
+Total gap time:6.169000 (s)
+Average IO time: 7.354e-07s
+IOPS:         1359.80 K
+Throughput(M/s, G/s): 331.982472M, 0.324202G
+
+=========Summary==========
+Total rdtscp cycles: 14192708621
+Total gap time:5.677083 (s)
+Average IO time: 6.768e-07s
+IOPS:         1477.63 K
+Throughput(M/s, G/s): 360.748617M, 0.352294G
+
+=========Summary==========
+Total rdtscp cycles: 13924078782
+Total gap time:5.569632 (s)
+Average IO time: 6.640e-07s
+IOPS:         1506.13 K
+Throughput(M/s, G/s): 367.708348M, 0.359090G
+
+=========Summary==========
+Total rdtscp cycles: 13429417148
+Total gap time:5.371767 (s)
+Average IO time: 6.404e-07s
+IOPS:         1561.61 K
+Throughput(M/s, G/s): 381.252585M, 0.372317G
+
+=========Summary==========
+Total rdtscp cycles: 15321637598
+Total gap time:6.128655 (s)
+Average IO time: 7.306e-07s
+IOPS:         1368.75 K
+Throughput(M/s, G/s): 334.167935M, 0.326336G
+
+1kib bzw 1024b:
+=========Summary==========
+Total rdtscp cycles: 28378780546
+Total gap time:11.351512 (s)
+Average IO time: 1.353e-06s
+IOPS:          738.99 K
+Throughput(M/s, G/s): 721.665963M, 0.704752G
+
+=========Summary==========
+Total rdtscp cycles: 23266150532
+Total gap time:9.306460 (s)
+Average IO time: 1.109e-06s
+IOPS:          901.37 K
+Throughput(M/s, G/s): 880.248753M, 0.859618G
+
+=========Summary==========
+Total rdtscp cycles: 27540002415
+Total gap time:11.016001 (s)
+Average IO time: 1.313e-06s
+IOPS:          761.49 K
+Throughput(M/s, G/s): 743.645541M, 0.726216G
+
+=========Summary==========
+Total rdtscp cycles: 25513950308
+Total gap time:10.205580 (s)
+Average IO time: 1.217e-06s
+IOPS:          821.96 K
+Throughput(M/s, G/s): 802.698122M, 0.783885G
+
+=========Summary==========
+Total rdtscp cycles: 22486270920
+Total gap time:8.994508 (s)
+Average IO time: 1.072e-06s
+IOPS:          932.64 K
+Throughput(M/s, G/s): 910.777962M, 0.889432G
+
+=========Summary==========
+Total rdtscp cycles: 18367754421
+Total gap time:7.347102 (s)
+Average IO time: 8.758e-07s
+IOPS:         1141.76 K
+Throughput(M/s, G/s): 1114.997486M, 1.088865G
+
+=========Summary==========
+Total rdtscp cycles: 17807157858
+Total gap time:7.122863 (s)
+Average IO time: 8.491e-07s
+IOPS:         1177.70 K
+Throughput(M/s, G/s): 1150.099312M, 1.123144G
+
+=========Summary==========
+Total rdtscp cycles: 19482094752
+Total gap time:7.792838 (s)
+Average IO time: 9.290e-07s
+IOPS:         1076.45 K
+Throughput(M/s, G/s): 1051.221661M, 1.026584G
+
+=========Summary==========
+Total rdtscp cycles: 19750077120
+Total gap time:7.900031 (s)
+Average IO time: 9.418e-07s
+IOPS:         1061.84 K
+Throughput(M/s, G/s): 1036.957976M, 1.012654G
+
+=========Summary==========
+Total rdtscp cycles: 19196959599
+Total gap time:7.678784 (s)
+Average IO time: 9.154e-07s
+IOPS:         1092.44 K
+Throughput(M/s, G/s): 1066.835605M, 1.041832G
+
+=========Summary==========
+Total rdtscp cycles: 18000649081
+Total gap time:7.200260 (s)
+Average IO time: 8.583e-07s
+IOPS:         1165.04 K
+Throughput(M/s, G/s): 1137.736751M, 1.111071G
+
+4 kib bzw 4096b:
+=========Summary==========
+Total rdtscp cycles: 64962925309
+Total gap time:25.985170 (s)
+Average IO time: 3.098e-06s
+IOPS:          322.82 K
+Throughput(M/s, G/s): 1261.026957M, 1.231472G
+
+=========Summary==========
+Total rdtscp cycles: 66284212385
+Total gap time:26.513685 (s)
+Average IO time: 3.161e-06s
+IOPS:          316.39 K
+Throughput(M/s, G/s): 1235.890072M, 1.206924G
+
+=========Summary==========
+Total rdtscp cycles: 88098259017
+Total gap time:35.239304 (s)
+Average IO time: 4.201e-06s
+IOPS:          238.05 K
+Throughput(M/s, G/s): 929.870816M, 0.908077G
+
+=========Summary==========
+Total rdtscp cycles: 81944664436
+Total gap time:32.777866 (s)
+Average IO time: 3.907e-06s
+IOPS:          255.92 K
+Throughput(M/s, G/s): 999.699011M, 0.976269G
+
+=========Summary==========
+Total rdtscp cycles: 80062780494
+Total gap time:32.025112 (s)
+Average IO time: 3.818e-06s
+IOPS:          261.94 K
+Throughput(M/s, G/s): 1023.197040M, 0.999216G
+
+=========Summary==========
+Total rdtscp cycles: 78365230713
+Total gap time:31.346092 (s)
+Average IO time: 3.737e-06s
+IOPS:          267.61 K
+Throughput(M/s, G/s): 1045.361562M, 1.020861G
+
+=========Summary==========
+Total rdtscp cycles: 79489788189
+Total gap time:31.795915 (s)
+Average IO time: 3.790e-06s
+IOPS:          263.83 K
+Throughput(M/s, G/s): 1030.572629M, 1.006419G
+
+=========Summary==========
+Total rdtscp cycles: 71708740468
+Total gap time:28.683496 (s)
+Average IO time: 3.419e-06s
+IOPS:          292.45 K
+Throughput(M/s, G/s): 1142.399092M, 1.115624G
+
+=========Summary==========
+Total rdtscp cycles: 59165036421
+Total gap time:23.666015 (s)
+Average IO time: 2.821e-06s
+IOPS:          354.46 K
+Throughput(M/s, G/s): 1384.601531M, 1.352150G
+
+=========Summary==========
+Total rdtscp cycles: 62261223921
+Total gap time:24.904490 (s)
+Average IO time: 2.969e-06s
+IOPS:          336.83 K
+Throughput(M/s, G/s): 1315.746701M, 1.284909G
+
+=========Summary==========
+Total rdtscp cycles: 59103907296
+Total gap time:23.641563 (s)
+Average IO time: 2.818e-06s
+IOPS:          354.82 K
+Throughput(M/s, G/s): 1386.033576M, 1.353548G

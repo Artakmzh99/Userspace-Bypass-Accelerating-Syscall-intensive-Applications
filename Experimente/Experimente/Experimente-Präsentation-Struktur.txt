@@ -1,0 +1,6 @@
+1. Setup: VirtualBox (welche specs eingestellt), ubuntu Version x, etc
+2. Kernel-neukompilierung Setup
+3. Erklärung kpti, on off
+4. Experimente selber - Ausführung, Probleme und fixes, plots (eigene vs aus paper)
+	redis - Probleme Client host selbe mac adresse
+5. Fazit (Unterschiede paper-experimente, ub gain bei mir, signifikante Probleme (schlechte Dokumentation etc)

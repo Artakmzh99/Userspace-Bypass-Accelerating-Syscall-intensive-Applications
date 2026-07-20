@@ -1,0 +1,27 @@
+UB:
+1 kib:
+Rps: 3644.58
+Tps: 2.96mb
+4 kib:
+Rps: 4067.21
+Tps: 3.30mb
+16 kib:
+Rps: 3704.56
+Tps: 3.00mb
+64 kib:
+Rps: 7296.47
+Tps: 5.92mb
+256 kib:
+Rps: 3626.33
+Tps: 2.94
+
+ub-Threads: 4kib
+2:
+Rps: 8028.18
+Tps: 6.51mb
+4:
+Rps: 7709.14
+tps: 6.25mb
+8:
+Rps: 4067.21
+Tps: 3.30mb
